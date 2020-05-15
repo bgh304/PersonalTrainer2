@@ -78,7 +78,7 @@ export default function Addcustomer(props) {
                             label="City"
                             fullWidth
                         />
-                        <TextField //EMAIL!
+                        <TextField
                             margin="dense"
                             name="email"
                             value={customer.email}

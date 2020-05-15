@@ -5,7 +5,7 @@ import 'react-table/react-table.css';
 import moment from 'moment';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Customerlist() {
+export default function Traininglist() {
     const [trainings, setTrainings] = useState([]);
 
     useEffect(() => fetchData(), [])

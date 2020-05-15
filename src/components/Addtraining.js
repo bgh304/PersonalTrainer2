@@ -29,16 +29,6 @@ export default function Addtraining(props) {
         handleClose();
     }
 
-                        /*<TextField
-                            autoFocus
-                            margin="dense"
-                            name="date"
-                            value={training.date}
-                            onChange={e => handleInputChange(e)}
-                            label="Date"
-                            fullWidth
-                        />*/
-
     return(
         <div>
             <Button color="primary" onClick={handleClickOpen}>

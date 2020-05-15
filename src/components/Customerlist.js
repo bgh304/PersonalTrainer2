@@ -50,7 +50,6 @@ export default function Customerlist() {
         .catch(err => console.error(err))
     }
 
-    //https://customerrest.herokuapp.com/api/trainings
     const saveTraining = (training) => {
         fetch('https://customerrest.herokuapp.com/api/trainings', {
             method: 'POST',
